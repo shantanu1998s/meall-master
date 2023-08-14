@@ -150,7 +150,6 @@ function setBreakFastData(data) {
     const img = document.getElementById("breakfast-image");
     img.src = "https://spoonacular.com/recipeImages/" + breakfastId + "-556x370." + data.imageType;
     document.getElementById("breakfast-name").innerHTML = data.title;
-    document.getElementById("time").innerHTML = data.readyInMinutes;
     calories[0].innerHTML = calorie.toFixed(2)
 }
 

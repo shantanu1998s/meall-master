@@ -1,17 +1,17 @@
 const loginForm = document.querySelector('.login-container form');
 const login=document.querySelector(".login-container");
 
-      function clearLoc(){
-        const name=localStorage.getItem("name");
-        if(name){
-          localStorage.clear();
-          alert("You have been logout")
-        }
-        else{
-               alert("You have been logout already");
-               location.replace("singup.html")
-        }
-      }
+      // function clearLoc(){
+      //   const name=localStorage.getItem("name");
+      //   if(name){
+      //     localStorage.clear();
+      //     alert("You have been logout")
+      //   }
+      //   else{
+      //          alert("You have been logout already");
+      //          location.replace("singup.html")
+      //   }
+      // }
 
 
 if(loginForm)

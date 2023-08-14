@@ -30,9 +30,9 @@ nav{
     font-family: Cursive;
     text-decoration:underline;
     font-family:Copperplate, Papyrus, fantasy;
+    font-size: medium;
   }
   .main{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -158,12 +158,13 @@ input[type=number] {
 }
 .tab-content{
   font-style: italic;
+  width: 100%;
 }
 .footer{
   background-color: rgb(232, 224, 224);
+  width: 100%;
   margin-top: 5px;
-  margin-left: 90px;
-  margin-right: 90px;
+  
   margin-bottom: 100px;
   overflow: hidden;
   position: relative;
@@ -195,7 +196,7 @@ input[type=number] {
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 300px) {
   .footer{
     margin-left: 35px;
     margin-right: 35px;
